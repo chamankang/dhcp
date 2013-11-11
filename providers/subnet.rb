@@ -34,6 +34,7 @@ action :add do
       :routers => new_resource.routers,
       :options => new_resource.options,
       :range => new_resource.range,
+      :ddns => new_resource.ddns,
       :peer => new_resource.peer
     )
     owner "root"
